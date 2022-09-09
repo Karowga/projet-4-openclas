@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +702,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.bgc-white h2
+{
+    padding: 0% 19%;
 }
 
 h2 {
@@ -780,12 +785,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #3c3838!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #3c3838!important;
 }
 
 .ltc-white {
