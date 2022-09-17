@@ -55,8 +55,8 @@ header img
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .bloc-lg {
@@ -234,6 +234,7 @@ header img
 }
 
 .row-no-gutters {
+    display: flex;
     margin-right: 0;
     margin-left: 0;
 }
@@ -611,7 +612,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #020202!important;
 }
 
 .container {
@@ -654,7 +655,7 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+
     font-size: 16px;
     font-weight: 700;
 }
@@ -745,11 +746,11 @@ h4 {
 
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #9e7f71;
 }
 
 .tc-white {
-    color: #f2edea!important;
+    color: #f2eaea!important;
 }
 
 .btn-atomic-tangerine {
@@ -863,7 +864,7 @@ h4 {
     }
 
     p {
-        font-size: 21px;
+        font-size: 23px;
     }
 
     .page-container {
