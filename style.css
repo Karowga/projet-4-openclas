@@ -44,6 +44,11 @@ header img
     position: relative;
 }
 
+.col-xs-12
+{
+    padding: 0 30px 0 30px;
+}
+
 .col-sm-12 img
 {
  width: 180px;
@@ -392,7 +397,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 .mg-lg {
@@ -636,7 +641,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 617px;
     margin: auto auto auto auto;
 }
 
@@ -699,6 +704,10 @@ h4 {
     color: #171717!important;
 }
 
+.whitee {
+    color: #f4f0f0!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -721,7 +730,7 @@ h4 {
 
 .black-background {
     background-color:rgba(47, 42, 26, 0.87);
-    padding: 40px 40px 40px 40px;
+    padding: 40px 0 40px 0;
 }
 
 .bold-link {
@@ -848,6 +857,15 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .black-background {
+        margin: 0 20px 0;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
